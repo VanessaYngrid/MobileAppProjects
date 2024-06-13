@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="304dp"
+        android:layout_height="45dp"
+        android:text="@string/title_text_view"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.087" />
+
+    <EditText
+        android:id="@+id/input_x_edit_text"
+        android:layout_width="304dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/input_x_edit_text"
+        app:layout_constraintEnd_toEndOf="@+id/title_text_view"
+        app:layout_constraintStart_toStartOf="@+id/title_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/title_text_view" />
+
+    <EditText
+        android:id="@+id/input_y_edit_text"
+        android:layout_width="304dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/input_y_edit_text"
+        app:layout_constraintEnd_toEndOf="@+id/input_x_edit_text"
+        app:layout_constraintStart_toStartOf="@+id/input_x_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/input_x_edit_text" />
+
+    <TextView
+        android:id="@+id/sum_operation_text_view"
+        android:layout_width="304dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/sum_operation_text_view"
+        app:layout_constraintEnd_toEndOf="@+id/input_y_edit_text"
+        app:layout_constraintStart_toStartOf="@+id/input_y_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/input_y_edit_text" />
+
+    <TextView
+        android:id="@+id/subtraction_operation_text_view"
+        android:layout_width="304dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/subtraction_operation_text_view"
+        app:layout_constraintEnd_toEndOf="@+id/sum_operation_text_view"
+        app:layout_constraintStart_toStartOf="@+id/sum_operation_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/sum_operation_text_view" />
+
+    <TextView
+        android:id="@+id/multiplication_operation_text_view"
+        android:layout_width="304dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/multiplication_operation_text_view"
+        app:layout_constraintEnd_toEndOf="@+id/subtraction_operation_text_view"
+        app:layout_constraintStart_toStartOf="@+id/subtraction_operation_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/subtraction_operation_text_view" />
+
+    <TextView
+        android:id="@+id/division_operation_text_view"
+        android:layout_width="304dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/division_operation_text_view"
+        app:layout_constraintEnd_toEndOf="@+id/multiplication_operation_text_view"
+        app:layout_constraintStart_toStartOf="@+id/multiplication_operation_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/multiplication_operation_text_view" />
+
+    <Button
+        android:id="@+id/calculate_button"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/calculate_button"
+        app:layout_constraintEnd_toEndOf="@+id/division_operation_text_view"
+        app:layout_constraintStart_toStartOf="@+id/division_operation_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/division_operation_text_view" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

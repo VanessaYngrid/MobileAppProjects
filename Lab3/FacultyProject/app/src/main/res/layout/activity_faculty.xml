@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FacultyActivity">
+
+    <TextView
+        android:id="@+id/faculty_id_text_view"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="-200dp"
+        android:text="@string/faculty_id_text_view"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.074" />
+
+    <TextView
+        android:id="@+id/faculty_fname_text_view"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/faculty_fname_text_view"
+        app:layout_constraintEnd_toEndOf="@+id/faculty_id_text_view"
+        app:layout_constraintStart_toStartOf="@+id/faculty_id_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/faculty_id_text_view" />
+
+    <TextView
+        android:id="@+id/faculty_lname_text_view"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/faculty_lname_text_view"
+        app:layout_constraintEnd_toEndOf="@+id/faculty_fname_text_view"
+        app:layout_constraintStart_toStartOf="@+id/faculty_fname_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/faculty_fname_text_view" />
+
+    <TextView
+        android:id="@+id/f_salary_text_view"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/f_salary_text_view"
+        app:layout_constraintEnd_toEndOf="@+id/faculty_lname_text_view"
+        app:layout_constraintStart_toStartOf="@+id/faculty_lname_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/faculty_lname_text_view" />
+
+    <TextView
+        android:id="@+id/f_bonus_rate_text_view"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/f_rate_bonus_text_view"
+        app:layout_constraintEnd_toEndOf="@+id/f_salary_text_view"
+        app:layout_constraintStart_toStartOf="@+id/f_salary_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/f_salary_text_view" />
+
+    <TextView
+        android:id="@+id/f_amount_bonus_text_view"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/f_amount_bonus_text_view"
+        app:layout_constraintEnd_toEndOf="@+id/f_bonus_rate_text_view"
+        app:layout_constraintStart_toStartOf="@+id/f_bonus_rate_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/f_bonus_rate_text_view" />
+
+    <EditText
+        android:id="@+id/faculty_id_edit_text"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="-150dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/faculty_id_edit_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <EditText
+        android:id="@+id/faculty_fname_edit_text"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/faculty_fname_edit_text"
+        app:layout_constraintEnd_toEndOf="@+id/faculty_id_edit_text"
+        app:layout_constraintStart_toStartOf="@+id/faculty_id_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/faculty_id_edit_text" />
+
+    <EditText
+        android:id="@+id/faculty_lname_edit_text"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/faculty_lname_edit_text"
+        app:layout_constraintEnd_toEndOf="@+id/faculty_fname_edit_text"
+        app:layout_constraintStart_toStartOf="@+id/faculty_fname_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/faculty_fname_edit_text" />
+
+    <EditText
+        android:id="@+id/faculty_salary_edit_text"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/faculty_salary_edit_text"
+        app:layout_constraintEnd_toEndOf="@+id/faculty_lname_edit_text"
+        app:layout_constraintStart_toStartOf="@+id/faculty_lname_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/faculty_lname_edit_text" />
+
+    <EditText
+        android:id="@+id/faculty_rate_bonus_edit_text"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/faculty_rate_bonus_edit_text"
+        app:layout_constraintEnd_toEndOf="@+id/faculty_salary_edit_text"
+        app:layout_constraintStart_toStartOf="@+id/faculty_salary_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/faculty_salary_edit_text" />
+
+    <TextView
+        android:id="@+id/f_amount_bonus2_text_view"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/f_amount_bonus2_text_view"
+        app:layout_constraintEnd_toEndOf="@+id/faculty_rate_bonus_edit_text"
+        app:layout_constraintStart_toStartOf="@+id/faculty_rate_bonus_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/faculty_rate_bonus_edit_text" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="80dp">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/update_faculty_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:text="@string/update_faculty_button" />
+    </LinearLayout>
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

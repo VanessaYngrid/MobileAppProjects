@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/input_string_edit_text"
+        android:layout_width="306dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/input_string_edit_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.338" />
+
+    <TextView
+        android:id="@+id/reverse_string_text_view"
+        android:layout_width="314dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/reverse_string_text_view"
+        app:layout_constraintEnd_toEndOf="@+id/input_string_edit_text"
+        app:layout_constraintStart_toStartOf="@+id/input_string_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/input_string_edit_text" />
+
+    <Button
+        android:id="@+id/reverse_string_button"
+        android:layout_width="278dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/reverse_string_button"
+        app:layout_constraintEnd_toEndOf="@+id/reverse_string_text_view"
+        app:layout_constraintStart_toStartOf="@+id/reverse_string_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/reverse_string_text_view" />
+</androidx.constraintlayout.widget.ConstraintLayout>

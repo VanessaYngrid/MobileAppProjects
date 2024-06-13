@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_gravity="start|center_vertical"
+        android:layout_marginTop="30dp"
+        android:gravity="start|center_vertical"
+        android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/student_name_text_view"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="@string/student_name_text_view"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="30dp"/>
+
+    <TextView
+        android:id="@+id/grade_average_text_view"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="@string/grade_average_text_view"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mainLinearLayout"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="150dp"
+        android:orientation="vertical">
+
+    <Button
+        android:id="@+id/display_student_grade_average_button"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="@string/display_student_grade_average_button"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="161dp"
+        app:cornerRadius="5dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginBottom="70dp">
+
+    <Button
+        android:id="@+id/previous_student_button"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:text="@string/previous_student_button"
+        android:layout_marginEnd="10dp"
+        app:cornerRadius="5dp"/>
+
+    <Button
+        android:id="@+id/next_student_button"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:text="@string/next_student_button"
+        android:layout_marginStart="10dp"
+        app:cornerRadius="5dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

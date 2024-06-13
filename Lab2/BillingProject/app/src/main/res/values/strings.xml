@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">BillingProject</string>
+    <string name="client_id_edit_text">Please Enter Client ID</string>
+    <string name="client_name_edit_text">Please Enter Client Name</string>
+    <string name="prd_name_edit_text">Please Enter Prd Name</string>
+    <string name="prd_price_edit_text">Please Enter Prd Price</string>
+    <string name="prd_qty_edit_text">Please Enter Prd Qty</string>
+    <string name="total_billing_text_view">View Total Billing</string>
+    <string name="billing_info_text_view"> </string>
+    <string name="total_input_billing_button">TOTAL INPUT BILLING</string>
+    <string name="total_record_billing_button">TOTAL RECORD BILLING</string>
+    <string name="billing_details_button">BILLING DETAILS</string>
+    <string name="prev_billing_button">PREV BILLING</string>
+    <string name="next_billing_button">NEXT BILLING</string>
+    <string name="client_id_text_view">Client ID</string>
+    <string name="client_name_text_view">Client Name</string>
+    <string name="prd_name_text_view">Product Name</string>
+    <string name="prd_price_text_view">Prd Price</string>
+    <string name="prd_qty_text_view">Prd Qty</string>
+    <string name="client_id_update_edit_text">Client ID</string>
+    <string name="client_name_update_edit_text">Client Name</string>
+    <string name="prd_name_update_edit_text">Prd Name</string>
+    <string name="prd_price_update_edit_text">Prd Price</string>
+    <string name="prd_qty_update_edit_text">Prd Qty</string>
+    <string name="billing_update_button">BILLING UPDATE</string>
+
+
+</resources>

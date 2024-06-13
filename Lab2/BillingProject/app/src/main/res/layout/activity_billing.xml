@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BillingActivity">
+
+    <EditText
+        android:id="@+id/client_id_update_edit_text"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/client_id_update_edit_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toEndOf="@+id/client_id_text_view"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/prd_qty_update_edit_text"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/prd_qty_update_edit_text"
+        app:layout_constraintEnd_toEndOf="@+id/prd_price_update_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/prd_price_update_edit_text" />
+
+    <EditText
+        android:id="@+id/prd_name_update_edit_text"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/prd_name_update_edit_text"
+        app:layout_constraintEnd_toEndOf="@+id/client_name_update_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/client_name_update_edit_text" />
+
+    <TextView
+        android:id="@+id/prd_name_text_view"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/prd_name_text_view"
+        app:layout_constraintEnd_toEndOf="@+id/client_name_text_view"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/client_name_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/client_name_text_view" />
+
+    <TextView
+        android:id="@+id/client_id_text_view"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:text="@string/client_id_text_view"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.094" />
+
+    <TextView
+        android:id="@+id/prd_price_text_view"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/prd_price_text_view"
+        app:layout_constraintEnd_toEndOf="@+id/prd_name_text_view"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/prd_name_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/prd_name_text_view" />
+
+    <EditText
+        android:id="@+id/prd_price_update_edit_text"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/prd_price_update_edit_text"
+        app:layout_constraintEnd_toEndOf="@+id/prd_name_update_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/prd_name_update_edit_text" />
+
+    <TextView
+        android:id="@+id/prd_qty_text_view"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/prd_qty_text_view"
+        app:layout_constraintEnd_toEndOf="@+id/prd_price_text_view"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/prd_price_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/prd_price_text_view" />
+
+    <TextView
+        android:id="@+id/client_name_text_view"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/client_name_text_view"
+        app:layout_constraintEnd_toStartOf="@+id/client_name_update_edit_text"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/client_id_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/client_id_text_view" />
+
+    <EditText
+        android:id="@+id/client_name_update_edit_text"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/client_name_update_edit_text"
+        app:layout_constraintEnd_toEndOf="@+id/client_id_update_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/client_id_update_edit_text" />
+
+    <Button
+        android:id="@+id/billing_update_button"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/billing_update_button"
+        app:layout_constraintEnd_toEndOf="@+id/prd_qty_update_edit_text"
+        app:layout_constraintStart_toStartOf="@+id/prd_qty_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/prd_qty_update_edit_text" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

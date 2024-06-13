@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TemperatureProject</string>
+    <string name="title_text_view">Temperature Conversion</string>
+    <string name="input_temperature_F_edit_text">Temperature in Fahrenheit</string>
+    <string name="temperature_celsius_text_view"> </string>
+    <string name="convert_temperature_button">CONVERT TEMPERATURE</string>
+</resources>

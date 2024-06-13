@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/facullty_id_text_view"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:text="@string/faculty_id_text_view"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075" />
+
+    <TextView
+        android:id="@+id/faculty_last_name_text_view"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/faculty_last_name_text_view"
+        app:layout_constraintEnd_toEndOf="@+id/facullty_id_text_view"
+        app:layout_constraintStart_toStartOf="@+id/facullty_id_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/facullty_id_text_view" />
+
+    <TextView
+        android:id="@+id/faculty_first_name_text_view"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/faculty_first_name_text_view"
+        app:layout_constraintEnd_toEndOf="@+id/faculty_last_name_text_view"
+        app:layout_constraintStart_toStartOf="@+id/faculty_last_name_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/faculty_last_name_text_view" />
+
+    <TextView
+        android:id="@+id/faculty_salary_text_view"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/faculty_salary_text_view"
+        app:layout_constraintEnd_toEndOf="@+id/faculty_first_name_text_view"
+        app:layout_constraintStart_toStartOf="@+id/faculty_first_name_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/faculty_first_name_text_view" />
+
+    <TextView
+        android:id="@+id/faculty_bonus_text_view"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/faculty_bonus_text_view"
+        app:layout_constraintEnd_toEndOf="@+id/faculty_salary_text_view"
+        app:layout_constraintStart_toStartOf="@+id/faculty_salary_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/faculty_salary_text_view" />
+
+    <TextView
+        android:id="@+id/total_bonus_text_view"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/total_bonus_text_view"
+        app:layout_constraintEnd_toEndOf="@+id/faculty_bonus_text_view"
+        app:layout_constraintStart_toStartOf="@+id/faculty_bonus_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/faculty_bonus_text_view" />
+
+    <Button
+        android:id="@+id/display_bonus_button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/display_bonus_button"
+        app:layout_constraintEnd_toEndOf="@+id/total_bonus_text_view"
+        app:layout_constraintStart_toStartOf="@+id/total_bonus_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/total_bonus_text_view" />
+
+    <Button
+        android:id="@+id/next_faculty_button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/next_faculty_button"
+        app:layout_constraintEnd_toEndOf="@+id/display_bonus_button"
+        app:layout_constraintStart_toStartOf="@+id/display_bonus_button"
+        app:layout_constraintTop_toBottomOf="@+id/display_bonus_button" />
+
+    <Button
+        android:id="@+id/previous_faculty_button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/previous_faculty_button"
+        app:layout_constraintEnd_toEndOf="@+id/next_faculty_button"
+        app:layout_constraintStart_toStartOf="@+id/next_faculty_button"
+        app:layout_constraintTop_toBottomOf="@+id/next_faculty_button" />
+</androidx.constraintlayout.widget.ConstraintLayout>

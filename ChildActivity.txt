@@ -1,0 +1,11 @@
+the first activities - parents activities (the ones in the mainActivity) (in terms of calling)
+child activities (CourseActivity)
+
+when the child activity is called, the "onDestroy()" method sera accionado en el mainActivity
+
+Model - Course (It's possible to have multiples models)
+Views - activity_main and activity_course
+Controller - MainActivity and CourseActivity
+
+
+

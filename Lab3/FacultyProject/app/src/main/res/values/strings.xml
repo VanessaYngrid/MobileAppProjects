@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">FacultyProject</string>
+    <string name="faculty_no_text_view">Faculty No:</string>
+    <string name="faculty_last_name_text_view">Faculty LName:</string>
+    <string name="faculty_first_name_text_view">Faculty FName:</string>
+    <string name="faculty_salary_text_view">Faculty Salary:</string>
+    <string name="faculty_rate_bonus_text_view">Faculty Rate Bonus:</string>
+    <string name="faculty_amount_bonus_text_view">Faculty Amount Bonus:</string>
+    <string name="prev_faculty_button">PREVIOUS FACULTY</string>
+    <string name="next_faculty_button">NEXT FACULTY</string>
+    <string name="faculty_details_button">FACULTY DETAILS</string>
+    <string name="all_faculties_button">ALL FACULTIES</string>
+
+    <string name="faculty_id_text_view">Faculty Id</string>
+    <string name="faculty_fname_text_view">Faculty FName</string>
+    <string name="faculty_lname_text_view">Faculty LName</string>
+    <string name="f_salary_text_view">Faculty Salary</string>
+    <string name="f_rate_bonus_text_view">Faculty Rate Bonus</string>
+    <string name="f_amount_bonus_text_view">Faculty Amount Bonus</string>
+    <string name="faculty_id_edit_text">Faculty Id</string>
+    <string name="faculty_fname_edit_text">Faculty FName</string>
+    <string name="faculty_lname_edit_text">Faculty LName</string>
+    <string name="faculty_salary_edit_text">Faculty Salary</string>
+    <string name="faculty_rate_bonus_edit_text">Faculty Rate Bonus</string>
+    <string name="f_amount_bonus2_text_view"> </string>
+    <string name="update_faculty_button">UPDATE FACULTY/DISPLAY BONUS</string>
+
+
+</resources>

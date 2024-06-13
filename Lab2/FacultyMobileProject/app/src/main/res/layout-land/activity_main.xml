@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--Copy the code from the other activity_main, without the constraint lines-->
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/facullty_id_text_view"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/faculty_id_text_view" />
+
+    <TextView
+        android:id="@+id/faculty_last_name_text_view"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/faculty_last_name_text_view" />
+
+    <TextView
+        android:id="@+id/faculty_first_name_text_view"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/faculty_first_name_text_view" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_gravity="end|top"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/faculty_salary_text_view"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/faculty_salary_text_view" />
+
+    <TextView
+        android:id="@+id/faculty_bonus_text_view"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/faculty_bonus_text_view" />
+
+    <TextView
+        android:id="@+id/total_bonus_text_view"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/total_bonus_text_view" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mainLinearLayout"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/previous_faculty_button"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/previous_faculty_button" />
+
+            <Button
+                android:id="@+id/next_faculty_button"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="20dp"
+                android:text="@string/next_faculty_button" />
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/display_bonus_button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/display_bonus_button" />
+    </LinearLayout>
+
+</FrameLayout>
