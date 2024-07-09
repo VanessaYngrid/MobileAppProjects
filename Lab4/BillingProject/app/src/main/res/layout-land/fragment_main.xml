@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/mainLinearLayout"
+        android:layout_width="330dp"
+        android:layout_height="320dp"
+        android:layout_gravity="top|start"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/total_billing_text_view"
+            android:layout_width="300dp"
+            android:layout_height="20dp"
+            android:text="@string/total_billing_text_view" />
+
+        <TextView
+            android:id="@+id/billing_info_text_view"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/billing_info_text_view" />
+
+        <Button
+            android:id="@+id/total_input_billing_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/total_input_billing_button" />
+
+        <Button
+            android:id="@+id/total_record_billing_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/total_record_billing_button"/>
+
+        <Button
+            android:id="@+id/billing_details_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/billing_details_button" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginBottom="30dp">
+
+        <Button
+            android:id="@+id/prev_billing_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="@string/prev_billing_button" />
+
+        <Button
+            android:id="@+id/next_billing_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/next_billing_button" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/client_id_edit_text"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/client_id_edit_text"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="68dp"/>
+
+    <EditText
+        android:id="@+id/client_name_edit_text"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/client_name_edit_text"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="180dp"
+        android:layout_marginStart="68dp"/>
+
+    <EditText
+        android:id="@+id/prd_name_edit_text"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/prd_name_edit_text"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="260dp"
+        android:layout_marginStart="68dp" />
+
+    <EditText
+        android:id="@+id/prd_price_edit_text"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/prd_price_edit_text"
+        android:layout_gravity="end|top" />
+
+    <EditText
+        android:id="@+id/prd_qty_edit_text"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/prd_qty_edit_text"
+        android:layout_gravity="end|center_vertical"/>
+
+
+</FrameLayout>

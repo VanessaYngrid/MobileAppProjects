@@ -184,7 +184,6 @@ public class MainActivity extends AppCompatActivity {
         Log.d(TAG,"onSaveInstanceState() called");
 
         onSavedInstanceState.putInt(KEY_INDEX, currentIndex);
-        //Retrieve the index on "onCreate"
-
+        //Retrieve the index on "onCreate
     }
 }

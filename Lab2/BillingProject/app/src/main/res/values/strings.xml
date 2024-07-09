@@ -13,6 +13,7 @@
     <string name="prev_billing_button">PREV BILLING</string>
     <string name="next_billing_button">NEXT BILLING</string>
     <string name="client_id_text_view">Client ID</string>
+
     <string name="client_name_text_view">Client Name</string>
     <string name="prd_name_text_view">Product Name</string>
     <string name="prd_price_text_view">Prd Price</string>

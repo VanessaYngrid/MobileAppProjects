@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EmployeeProject</string>
+    <string name="employee_id_text_view">Employee ID:</string>
+    <string name="employee_name_text_view">Employee Name:</string>
+    <string name="employee_salary_text_view">Employee Salary:</string>
+    <string name="display_total_tax_text_view">Employee Total Tax:</string>
+    <string name="prev_employee_button">PREVIOUS EMPLOYEE</string>
+    <string name="next_employee_button">NEXT EMPLOYEE</string>
+    <string name="employee_tax_button">CALCULATE TAX</string>
+</resources>

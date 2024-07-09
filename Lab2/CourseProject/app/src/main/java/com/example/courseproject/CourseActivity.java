@@ -98,6 +98,7 @@ public class CourseActivity extends AppCompatActivity {
         setResult(RESULT_OK, dataIntent);
     }
 
+    //Used when I update an info and I want to go back to the previous screen
     //Decoding extra parameters in Parent MainActivity
     public static Course decodeMessageCourseUpdateResult(Intent resultIntent)
     {

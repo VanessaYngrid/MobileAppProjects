@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/courseoption1"
+        android:icon="@drawable/add_icon"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/courseoption2"
+        android:icon="@drawable/build_icon"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/courseoption3"
+        android:title="Item" />
+    <item
+        android:id="@+id/courseoption4"
+        android:title="Item" />
+    <item
+        android:id="@+id/courseoption5"
+        android:title="Item" />
+</menu>
