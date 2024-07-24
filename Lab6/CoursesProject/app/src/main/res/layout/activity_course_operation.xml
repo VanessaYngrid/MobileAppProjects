@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CourseOperationActivity">
+
+    <EditText
+        android:id="@+id/course_no_op_edit_text"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/course_no_op_edit_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.111" />
+
+    <EditText
+        android:id="@+id/course_name_op_edit_text"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/course_name_op_edit_text"
+        app:layout_constraintEnd_toEndOf="@+id/course_no_op_edit_text"
+        app:layout_constraintStart_toStartOf="@+id/course_no_op_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/course_no_op_edit_text" />
+
+    <EditText
+        android:id="@+id/max_enrl_op_edit_text"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/max_enrl_op_edit_text"
+        app:layout_constraintEnd_toEndOf="@+id/course_name_op_edit_text"
+        app:layout_constraintStart_toStartOf="@+id/course_name_op_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/course_name_op_edit_text" />
+
+    <EditText
+        android:id="@+id/course_credits_op_edit_text"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/course_credits_edit_text"
+        app:layout_constraintEnd_toEndOf="@+id/max_enrl_op_edit_text"
+        app:layout_constraintStart_toStartOf="@+id/max_enrl_op_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/max_enrl_op_edit_text" />
+
+    <ScrollView
+        android:id="@+id/course_list_op_scroll_view"
+        android:layout_width="270dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/course_credits_op_edit_text"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="@+id/course_credits_op_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/course_credits_op_edit_text">
+
+        <TextView
+            android:id="@+id/course_list_op_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/course_list_text_view" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/op_add_course_button"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/op_add_course_button"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/course_list_op_scroll_view"
+        app:layout_constraintStart_toStartOf="@+id/course_list_op_scroll_view"
+        app:layout_constraintTop_toBottomOf="@+id/course_list_op_scroll_view" />
+
+    <Button
+        android:id="@+id/op_search_course_button"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/op_search_course_button"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/op_add_course_button"
+        app:layout_constraintStart_toStartOf="@+id/op_add_course_button"
+        app:layout_constraintTop_toBottomOf="@+id/op_add_course_button" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mainoption"
+        android:icon="@drawable/home_icon"
+        android:title="Item"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/bookoption"
+        android:icon="@drawable/book_icon"
+        android:title="Item"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/alloptions"
+        android:icon="@drawable/more_icon"
+        android:title="Item"
+        app:showAsAction="always"/>
+
+</menu>
+
+<!--
+<menu>
+            <item
+                android:id="@+id/book_list"
+                android:title="Book List" />
+            <item
+                android:id="@+id/chapter_list"
+                android:title="Chapter List" />
+            <item
+                android:id="@+id/book_chapter"
+                android:title="Book Chapter" />
+        </menu>
+-->

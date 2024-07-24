@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">BookPublishingProject</string>
+
+    //PublisherDisplay Fragment
+    <string name="pub_id_text_view">Pub id</string>
+    <string name="pub_id_text"> </string>
+    <string name="pub_name_text_view">Pub Name</string>
+    <string name="pub_name_text"> </string>
+    <string name="pub_address_text_view">Pub Address</string>
+    <string name="pub_address_text"> </string>
+    <string name="prev_pub_button">PREV PUB</string>
+    <string name="next_pub_button">NEXT PUB</string>
+    <string name="pub_details_button">PUBLISHER DETAILS</string>
+    <string name="show_book_button">SHOW BOOK</string>
+
+    //PublisherUpdate Fragment
+    <string name="pub_id_edit_text">Pub Id</string>
+    <string name="pub_name_edit_text">Pub Name</string>
+    <string name="pub_address_edit_text">Pub Address</string>
+    <string name="update_pub_button">UPDATE PUBLISHER</string>
+    <string name="clear_pub_button">CLEAR PUBLISHER</string>
+    <string name="add_pub_button">ADD PUBLISHER</string>
+    <string name="search_pub_button">SEARCH PUBLISHER</string>
+    <string name="delete_pub_button">DELETE PUBLISHER</string>
+
+
+    //Book Fragment
+    <string name="book_id_text_view">Book Id</string>
+    <string name="book_author_text_view">Book Author</string>
+    <string name="book_title_text_view">Book Title</string>
+    <string name="book_isbn_text_view">Book ISBN</string>
+    <string name="book_type_text_view">Book Type</string>
+    <string name="book_price_text_view">Book Price</string>
+    <string name="book_pid_text_view">Book PId</string>
+    <string name="book_id_edit_text">Book Id</string>
+    <string name="book_author_edit_text">Book Author</string>
+    <string name="book_title_edit_text">Book Title</string>
+    <string name="book_isbn_edit_text">Book ISBN</string>
+    <string name="book_price_edit_text">Book Price</string>
+    <string name="add_book_button">ADD BOOK</string>
+    <string name="add_chapter_list_button">ADD CHAPTER LIST TO THIS BOOK</string>
+    <string-array name="book_type_array">
+        <item>BG</item>
+        <item>MD</item>
+        <item>EX</item>
+    </string-array>
+    <string-array name="spinner_select_publisher">
+        <!-- Placeholder items, will be replaced programmatically -->
+        <item>Placeholder 1</item>
+        <item>Placeholder 2</item>
+        <item>Placeholder 3</item>
+    </string-array>
+
+    //ChapterFragment
+    <string name="book_info_text_view">Book Info</string>
+    <string name="chapter_id_text_view">Chapter Id</string>
+    <string name="chapter_title_text_view">Chapter Title</string>
+    <string name="chapter_price_text_view">Chapter Price</string>
+    <string name="display_book_info_text_view"> </string>
+    <string name="chapter_id_edit_text">Chapter Id</string>
+    <string name="chapter_title_edit_text">Chapter Title</string>
+    <string name="chapter_price_edit_text">Chapter Price</string>
+    <string name="add_chapter_button">ADD CHAPTER</string>
+
+</resources>

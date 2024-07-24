@@ -31,6 +31,5 @@ public class MainActivity extends AppCompatActivity {
             //use .replace instead of .add to add new fragment
         }
 
-
     }
 }

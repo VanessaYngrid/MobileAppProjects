@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "676796611722",
+    "project_id": "coursesproject-bf30f",
+    "storage_bucket": "coursesproject-bf30f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676796611722:android:581ced0760488683354173",
+        "android_client_info": {
+          "package_name": "com.example.coursesproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYa45eC4qm2ao36izCojRJ3V_OtK2CImQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

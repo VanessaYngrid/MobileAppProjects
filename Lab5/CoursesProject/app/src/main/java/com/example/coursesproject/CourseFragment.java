@@ -113,7 +113,7 @@ public class CourseFragment extends Fragment {
 
         //get the view of the courseNextButton
         courseNextButton = (Button) v.findViewById(R.id.course_next_button);
-        courseNextButton.setOnClickListener(new View.OnClickListener() {
+            courseNextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
